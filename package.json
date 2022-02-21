@@ -5,11 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "callbacks": "nodemon appCallbacks.js",
+    "async": "nodemon appAsync.js"
   },
   "author": "shahzad",
   "license": "ISC",
   "dependencies": {
+    "async": "^3.2.3",
     "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10",
     "express": "^4.17.3"
